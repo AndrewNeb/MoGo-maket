@@ -1,0 +1,245 @@
+@import url('fonts.css');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0%;
+}
+.main{
+    width:1920px ;
+    height: 10000px;
+    border: 1px solid black;
+    margin: 0 auto;
+}
+header{
+    width: 100%;
+    height: 1000px;
+    background: url('../images/eagle.png');
+}
+.container{
+    width: 1210 px;
+    height: 100%;
+    margin: 0 360px 0 360px;
+}
+ul{
+    list-style-type: none;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding-top: 30px;
+}
+
+.menu__items{
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    
+}
+
+.menu_item{
+    display:block;
+    height: 30px;
+}
+
+#menu_item{
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 14px;
+}
+#menu_item:hover{
+    color: #fce38a;
+    border-bottom: 1px solid #fce38a;
+}
+.logo{
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.header_title{
+    width: 100%;
+    height: 862px;
+    padding: 175px 175px;
+}
+
+#creative{ width: 100%;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 72px;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#welcome{ 
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 150px;
+    color: #ffffff;
+    font-weight: 800;
+    text-align: center;
+    line-height: 140px;
+    margin-bottom: 75px;
+}
+hr{
+    background-color: #ffffff;
+    width: 60px;
+    height: 3px;
+    margin: 0 auto;
+    border: 0;
+}
+
+#header_button{
+    width: 160px;
+    height: 40px;
+    border: 3px solid #ffffff;
+    margin: 50px 520px 50px 520px ;
+}
+
+#hbutton{
+    display: block;
+    width: 160px;
+    height: 40px;
+    text-decoration: none;
+    text-align: center;
+    color: #ffffff;
+    font-size: 14px;    
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    border: 3px solid #ffffff;
+    padding: 8px ;
+    margin: 50px 345px;
+}
+#hbutton:hover{
+    color: #fce38a;
+    border-bottom: 1px solid #fce38a;
+}
+
+.anchors{
+    display: flex;
+    justify-content: space-between;
+    height: 75px;
+    margin-bottom: 0;
+}
+
+#anchor_item{
+    display: block;
+    width: 197px;
+    height: 100%;
+    text-decoration: none;
+    color: #faf3dc;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    border-top: 3px solid ;
+}
+#anchor_item span{
+    font-size: 24px;
+    font-weight: bold;
+}
+.about{
+    width: 100%;
+    height: 750px;
+    
+}
+.about>.container{
+    padding-top: 95px;
+}
+.title_cursive{ 
+    width: 100%;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 24px;
+    color: black;
+    text-align: center;
+    
+}
+
+.title_bold{ 
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    color: black;
+    font-weight: 800;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 45px; 
+}
+
+.hr_red{
+    background-color: #f38181;
+    width: 60px;
+    height: 3px;
+    margin: 0 auto;
+    border: 0;
+}
+.stat_info{
+    width: 100%;
+    height: 270px;
+    background-color: #95e1d3;
+}
+
+.work_with{
+    width: 100%;
+    height: 650px;
+}
+.work_with>.container{
+    padding-top: 95px;
+}
+
+.unique_design{
+    width: 100%;
+    height: 850px;
+    background: url('../images/river.png');
+}
+.unique_design>.container{
+    padding-top: 110px;
+}
+
+.service{
+    width: 100%;
+    height: 900px;
+}
+.service>.container{
+    padding-top: 110px;
+}
+
+.review{
+    width: 100%;
+    height: 290px;
+    background-color: #f8f8f8;
+}
+
+.team{
+    width: 100%;
+    height: 1050px;
+}
+.team>.container{
+    padding-top: 100px;
+}
+
+.labels{
+    width: 100%;
+    height: 250px;
+    background-color: #f8f8f8
+}
+
+.our_works{
+    width: 100%;
+    height: 1635px;
+}
+.our_works>.container{
+    padding-top: 110px;
+}
+.clients{
+    width: 100%;
+    height: 825px;
+}
+.clients>.container{
+    padding-top: 110px;
+}
